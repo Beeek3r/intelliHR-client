@@ -1,0 +1,65 @@
+$primary-light: #CDCDCD;
+
+// CSS Resets
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  text-align: center;
+}
+
+.login-type-button {
+  margin: auto 10px;
+}
+
+.nav-container {
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.page-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.login-container {
+  width: 400px;
+  margin: 100px auto;
+  display: block;
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin: 5px;
+}
+
+.subjects-filter-container {
+  margin-top: 100px;
+}
+
+.subjects-container, .test-container {
+  margin-top: 50px;
+}
+
+.subject-container {
+  width: 500px;
+  margin: 20px auto;
+  background-color: $primary-light;
+}
+
+.error-container {
+  margin-top: 20px;
+  text-align: center;
+  color: red;
+}
